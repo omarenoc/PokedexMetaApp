@@ -29,4 +29,9 @@ class MainActivity : AppCompatActivity() {
             .addToBackStack(null)
             .commitAllowingStateLoss()
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        this.finish()
+    }
 }
