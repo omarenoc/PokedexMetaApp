@@ -65,7 +65,7 @@ class PokemonDetailFragment : Fragment() {
 
         mBinding.inclSatk.apply {
             tvStatValue.text = viewModel.spAtkFormat
-            progressBar.progress = viewModel.atkProgress
+            progressBar.progress = viewModel.spAtkProgress
         }
 
         mBinding.inclSdef.apply {
